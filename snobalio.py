@@ -2,6 +2,7 @@ from ctypes import *
 import numpy as np
 from numpy.ctypeslib import ndpointer, as_ctypes, as_array
 
+nd_double_1d = ndpointer(np.float64, ndim=1, flags='C')
 nd_double_2d = ndpointer(np.uintp, ndim=1, flags='C')
 
 
@@ -133,7 +134,7 @@ class model_measure_params_1d(Structure):
         ("z_u", c_double),
         ("z_T", c_double),
         ("z_0", c_double),
-        ("i_elevation", POINTER(c_double))
+        ("i_elevation", nd_double_1d)
     ]
 
 def _construct_model_measure_params_1d(measure_params, i_elevation):
@@ -148,8 +149,7 @@ def _construct_model_measure_params_1d(measure_params, i_elevation):
                                    float(measure_params[2]),
                                    float(measure_params[3]),
                                    float(measure_params[4]),
-                                   as_ctypes(i_elevation.astype(np.float64).flatten()))
-
+                                   i_elevation.ctypes.data)
 class model_precip_inputs(Structure):
     """
     The model_precip_inputs struct in c

@@ -29,7 +29,7 @@ typedef struct {
     double z_u;
     double z_T;
     double z_0;
-    double * i_elevation;
+    double *i_elevation;
 
 } model_measure_params_1d;
 

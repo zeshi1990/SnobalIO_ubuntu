@@ -37,7 +37,6 @@ double ** run_isnobal_1d(long length,
          *  Modify elevation attribute in model_measure_params1
          */
         model_measure_params1->elevation = model_measure_params_1d1->i_elevation[i];
-        printf("The elevation of current pixel is: %fm\n", model_measure_params1->elevation);
 
         /*
          * Initialize following
@@ -60,9 +59,6 @@ double ** run_isnobal_1d(long length,
         model_states1->T_s_0 = model_states_1d1[3][i];
         model_states1->T_s_l = model_states_1d1[4][i];
         model_states1->h2o_sat = model_states_1d1[5][i];
-//        printf("The snow depth of current pixel is: %fm\n", model_states1->z_s);
-//        printf("The snow density of current pixel is: %fkg per cubic meters\n", model_states1->rho);
-        printf("The snow temperature of current pixel is: %f K\n", model_states1->T_s);
 
         /*
          * Assign value to model_climate_inputs1
@@ -73,8 +69,6 @@ double ** run_isnobal_1d(long length,
         model_climate_inputs1->e_a = model_climate_inputs_1d1[3][i];
         model_climate_inputs1->u = model_climate_inputs_1d1[4][i];
         model_climate_inputs1->T_g = model_climate_inputs_1d1[5][i];
-        printf("The air temperature 1 of current pixel is: %f K\n", model_climate_inputs1->T_a);
-        printf("The ground temperature from NLDAS is: %f K\n", model_climate_inputs1->T_g);
 
 
         /*
@@ -97,63 +91,6 @@ double ** run_isnobal_1d(long length,
         model_precip_inputs1->T_pp = model_precip_inputs_1d1[4][i];
 
         /*
-         * Test Please comment out when running isnobal
-         */
-        /*
-//        states_results[0][i] = -99.;
-//        states_results[1][i] = -98.;
-//        states_results[2][i] = -97.;
-//        states_results[3][i] = -96.;
-//        states_results[4][i] = -95.;
-//        states_results[5][i] = -94.;
-//
-//        if (i == 1) {
-//            states_results[0][i] = -94.;
-//            states_results[1][i] = -95.;
-//            states_results[2][i] = -96.;
-//            states_results[3][i] = -97.;
-//            states_results[4][i] = -98.;
-//            states_results[5][i] = -99.;
-//        }
-//
-//        printf("elevation = %f\n", model_measure_params1->elevation);
-//
-//        printf("z_s = %f\n", model_states1->z_s);
-//        printf("rho = %f\n", model_states1->rho);
-//        printf("T_s = %f\n", model_states1->T_s);
-//        printf("T_s_0 = %f\n", model_states1->T_s_0);
-//        printf("T_s_l = %f\n", model_states1->T_s_l);
-//        printf("h2o_sat = %f\n", model_states1->h2o_sat);
-//
-//        printf("S_n = %f\n", model_climate_inputs1->S_n);
-//        printf("I_lw = %f\n", model_climate_inputs1->I_lw);
-//        printf("T_a = %f\n", model_climate_inputs1->T_a);
-//        printf("e_a = %f\n", model_climate_inputs1->e_a);
-//        printf("u = %f\n", model_climate_inputs1->u);
-//        printf("T_g = %f\n", model_climate_inputs1->T_g);
-//
-//        printf("S_n = %f\n", model_climate_inputs2->S_n);
-//        printf("I_lw = %f\n", model_climate_inputs2->I_lw);
-//        printf("T_a = %f\n", model_climate_inputs2->T_a);
-//        printf("e_a = %f\n", model_climate_inputs2->e_a);
-//        printf("u = %f\n", model_climate_inputs2->u);
-//        printf("T_g = %f\n", model_climate_inputs2->T_g);
-//
-//        printf("precip_new = %d\n", model_precip_inputs1->precip_now);
-//        printf("m_pp = %f\n", model_precip_inputs1->m_pp);
-//        printf("percent_snow = %f\n", model_precip_inputs1->percent_snow);
-//        printf("rho_snow = %f\n", model_precip_inputs1->rho_snow);
-//        printf("T_pp = %f\n", model_precip_inputs1->T_pp);
-//
-//        printf("%f\n", states_results[0][i]);
-//        printf("%f\n", states_results[1][i]);
-//        printf("%f\n", states_results[2][i]);
-//        printf("%f\n", states_results[3][i]);
-//        printf("%f\n", states_results[4][i]);
-//        printf("%f\n", states_results[5][i]);
-        */
-
-        /*
          * Please uncomment below when running
          */
         if (!snobal_init(model_params1, model_measure_params1,
@@ -170,14 +107,6 @@ double ** run_isnobal_1d(long length,
         }
 
         init_snow();
-
-        printf("snow temperature %f k \n", T_s);
-        printf("Snow lower layer %f \n", T_s_l);
-        printf("Snow upper layer %f \n", T_s_0);
-        printf("Air temperature 1 %f \n", input_rec1.T_a);
-        printf("Air temperature 2 %f \n", input_rec2.T_a);
-        printf("The ground temperature %f \n", input_rec1.T_g);
-        printf("Precipitation temperature %f \n", T_pp);
 
 
         if(!do_data_tstep()) {
@@ -206,7 +135,7 @@ double ** run_isnobal_1d(long length,
         free(model_climate_inputs2);
         free(model_precip_inputs1);
 
-        printf("Iteration done!");
+        printf("Iteration done!\n");
     }
 
     return states_results;
