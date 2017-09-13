@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -82,189 +82,197 @@ _uio.h
 envphys.h
 /home/zeshi/ipw/h/envphys.h
 
-/media/raid0/zeshi/isnobal/SnobalIO/_adj_layers.c
+/media/raid0/zeshi/SnobalIO/_adj_layers.c
 snobalio.h
-/media/raid0/zeshi/isnobal/SnobalIO/snobalio.h
+/media/raid0/zeshi/SnobalIO/snobalio.h
 _snobal.h
-/media/raid0/zeshi/isnobal/SnobalIO/_snobal.h
+/media/raid0/zeshi/SnobalIO/_snobal.h
 
-/media/raid0/zeshi/isnobal/SnobalIO/_adj_snow.c
+/media/raid0/zeshi/SnobalIO/_adj_snow.c
 snobalio.h
-/media/raid0/zeshi/isnobal/SnobalIO/snobalio.h
+/media/raid0/zeshi/SnobalIO/snobalio.h
 _snobal.h
-/media/raid0/zeshi/isnobal/SnobalIO/_snobal.h
+/media/raid0/zeshi/SnobalIO/_snobal.h
 
-/media/raid0/zeshi/isnobal/SnobalIO/_advec.c
+/media/raid0/zeshi/SnobalIO/_advec.c
 snobalio.h
-/media/raid0/zeshi/isnobal/SnobalIO/snobalio.h
+/media/raid0/zeshi/SnobalIO/snobalio.h
 _snobal.h
-/media/raid0/zeshi/isnobal/SnobalIO/_snobal.h
+/media/raid0/zeshi/SnobalIO/_snobal.h
 
-/media/raid0/zeshi/isnobal/SnobalIO/_below_thold.c
+/media/raid0/zeshi/SnobalIO/_below_thold.c
 snobalio.h
-/media/raid0/zeshi/isnobal/SnobalIO/snobalio.h
+/media/raid0/zeshi/SnobalIO/snobalio.h
 _snobal.h
-/media/raid0/zeshi/isnobal/SnobalIO/_snobal.h
+/media/raid0/zeshi/SnobalIO/_snobal.h
 
-/media/raid0/zeshi/isnobal/SnobalIO/_calc_layers.c
+/media/raid0/zeshi/SnobalIO/_calc_layers.c
 snobalio.h
-/media/raid0/zeshi/isnobal/SnobalIO/snobalio.h
+/media/raid0/zeshi/SnobalIO/snobalio.h
 _snobal.h
-/media/raid0/zeshi/isnobal/SnobalIO/_snobal.h
+/media/raid0/zeshi/SnobalIO/_snobal.h
 
-/media/raid0/zeshi/isnobal/SnobalIO/_cold_content.c
+/media/raid0/zeshi/SnobalIO/_cold_content.c
 snobalio.h
-/media/raid0/zeshi/isnobal/SnobalIO/snobalio.h
+/media/raid0/zeshi/SnobalIO/snobalio.h
 _snobal.h
-/media/raid0/zeshi/isnobal/SnobalIO/_snobal.h
+/media/raid0/zeshi/SnobalIO/_snobal.h
 
-/media/raid0/zeshi/isnobal/SnobalIO/_divide_tstep.c
+/media/raid0/zeshi/SnobalIO/_divide_tstep.c
 h/snobal.h
 -
 snobalio.h
-/media/raid0/zeshi/isnobal/SnobalIO/snobalio.h
+/media/raid0/zeshi/SnobalIO/snobalio.h
 _snobal.h
-/media/raid0/zeshi/isnobal/SnobalIO/_snobal.h
+/media/raid0/zeshi/SnobalIO/_snobal.h
 
-/media/raid0/zeshi/isnobal/SnobalIO/_do_tstep.c
+/media/raid0/zeshi/SnobalIO/_do_tstep.c
 snobalio.h
-/media/raid0/zeshi/isnobal/SnobalIO/snobalio.h
+/media/raid0/zeshi/SnobalIO/snobalio.h
 _snobal.h
-/media/raid0/zeshi/isnobal/SnobalIO/_snobal.h
+/media/raid0/zeshi/SnobalIO/_snobal.h
 
-/media/raid0/zeshi/isnobal/SnobalIO/_e_bal.c
+/media/raid0/zeshi/SnobalIO/_e_bal.c
 snobalio.h
-/media/raid0/zeshi/isnobal/SnobalIO/snobalio.h
+/media/raid0/zeshi/SnobalIO/snobalio.h
 _snobal.h
-/media/raid0/zeshi/isnobal/SnobalIO/_snobal.h
+/media/raid0/zeshi/SnobalIO/_snobal.h
 
-/media/raid0/zeshi/isnobal/SnobalIO/_evap_cond.c
+/media/raid0/zeshi/SnobalIO/_evap_cond.c
 snobalio.h
-/media/raid0/zeshi/isnobal/SnobalIO/snobalio.h
+/media/raid0/zeshi/SnobalIO/snobalio.h
 _snobal.h
-/media/raid0/zeshi/isnobal/SnobalIO/_snobal.h
+/media/raid0/zeshi/SnobalIO/_snobal.h
 
-/media/raid0/zeshi/isnobal/SnobalIO/_h2o_compact.c
+/media/raid0/zeshi/SnobalIO/_h2o_compact.c
 snobalio.h
-/media/raid0/zeshi/isnobal/SnobalIO/snobalio.h
+/media/raid0/zeshi/SnobalIO/snobalio.h
 _snobal.h
-/media/raid0/zeshi/isnobal/SnobalIO/_snobal.h
+/media/raid0/zeshi/SnobalIO/_snobal.h
 
-/media/raid0/zeshi/isnobal/SnobalIO/_h_le.c
+/media/raid0/zeshi/SnobalIO/_h_le.c
 snobalio.h
-/media/raid0/zeshi/isnobal/SnobalIO/snobalio.h
+/media/raid0/zeshi/SnobalIO/snobalio.h
 _snobal.h
-/media/raid0/zeshi/isnobal/SnobalIO/_snobal.h
+/media/raid0/zeshi/SnobalIO/_snobal.h
 
-/media/raid0/zeshi/isnobal/SnobalIO/_layer_mass.c
+/media/raid0/zeshi/SnobalIO/_layer_mass.c
 snobalio.h
-/media/raid0/zeshi/isnobal/SnobalIO/snobalio.h
+/media/raid0/zeshi/SnobalIO/snobalio.h
 _snobal.h
-/media/raid0/zeshi/isnobal/SnobalIO/_snobal.h
+/media/raid0/zeshi/SnobalIO/_snobal.h
 
-/media/raid0/zeshi/isnobal/SnobalIO/_mass_bal.c
+/media/raid0/zeshi/SnobalIO/_mass_bal.c
 snobalio.h
-/media/raid0/zeshi/isnobal/SnobalIO/snobalio.h
+/media/raid0/zeshi/SnobalIO/snobalio.h
 _snobal.h
-/media/raid0/zeshi/isnobal/SnobalIO/_snobal.h
+/media/raid0/zeshi/SnobalIO/_snobal.h
 
-/media/raid0/zeshi/isnobal/SnobalIO/_net_rad.c
+/media/raid0/zeshi/SnobalIO/_net_rad.c
 math.h
 -
 snobalio.h
-/media/raid0/zeshi/isnobal/SnobalIO/snobalio.h
+/media/raid0/zeshi/SnobalIO/snobalio.h
 _snobal.h
-/media/raid0/zeshi/isnobal/SnobalIO/_snobal.h
+/media/raid0/zeshi/SnobalIO/_snobal.h
 
-/media/raid0/zeshi/isnobal/SnobalIO/_new_density.c
+/media/raid0/zeshi/SnobalIO/_new_density.c
 snobalio.h
-/media/raid0/zeshi/isnobal/SnobalIO/snobalio.h
+/media/raid0/zeshi/SnobalIO/snobalio.h
 _snobal.h
-/media/raid0/zeshi/isnobal/SnobalIO/_snobal.h
+/media/raid0/zeshi/SnobalIO/_snobal.h
 
-/media/raid0/zeshi/isnobal/SnobalIO/_precip.c
+/media/raid0/zeshi/SnobalIO/_precip.c
 snobalio.h
-/media/raid0/zeshi/isnobal/SnobalIO/snobalio.h
+/media/raid0/zeshi/SnobalIO/snobalio.h
 _snobal.h
-/media/raid0/zeshi/isnobal/SnobalIO/_snobal.h
+/media/raid0/zeshi/SnobalIO/_snobal.h
 
-/media/raid0/zeshi/isnobal/SnobalIO/_runoff.c
+/media/raid0/zeshi/SnobalIO/_runoff.c
 snobalio.h
-/media/raid0/zeshi/isnobal/SnobalIO/snobalio.h
+/media/raid0/zeshi/SnobalIO/snobalio.h
 _snobal.h
-/media/raid0/zeshi/isnobal/SnobalIO/_snobal.h
+/media/raid0/zeshi/SnobalIO/_snobal.h
 
-/media/raid0/zeshi/isnobal/SnobalIO/_snobal.h
+/media/raid0/zeshi/SnobalIO/_snobal.h
 h/snobal.h
-/media/raid0/zeshi/isnobal/SnobalIO/h/snobal.h
+/media/raid0/zeshi/SnobalIO/h/snobal.h
 
-/media/raid0/zeshi/isnobal/SnobalIO/_snowmelt.c
+/media/raid0/zeshi/SnobalIO/_snowmelt.c
 snobalio.h
-/media/raid0/zeshi/isnobal/SnobalIO/snobalio.h
+/media/raid0/zeshi/SnobalIO/snobalio.h
 _snobal.h
-/media/raid0/zeshi/isnobal/SnobalIO/_snobal.h
+/media/raid0/zeshi/SnobalIO/_snobal.h
 
-/media/raid0/zeshi/isnobal/SnobalIO/_time_compact.c
+/media/raid0/zeshi/SnobalIO/_time_compact.c
 snobalio.h
-/media/raid0/zeshi/isnobal/SnobalIO/snobalio.h
+/media/raid0/zeshi/SnobalIO/snobalio.h
 _snobal.h
-/media/raid0/zeshi/isnobal/SnobalIO/_snobal.h
+/media/raid0/zeshi/SnobalIO/_snobal.h
 
-/media/raid0/zeshi/isnobal/SnobalIO/_vars.c
+/media/raid0/zeshi/SnobalIO/_vars.c
 snobalio.h
-/media/raid0/zeshi/isnobal/SnobalIO/snobalio.h
+/media/raid0/zeshi/SnobalIO/snobalio.h
 _snobal.h
-/media/raid0/zeshi/isnobal/SnobalIO/_snobal.h
+/media/raid0/zeshi/SnobalIO/_snobal.h
 
-/media/raid0/zeshi/isnobal/SnobalIO/do_data_tstep.c
-h/snobal.h
--
-snobalio.h
-/media/raid0/zeshi/isnobal/SnobalIO/snobalio.h
-_snobal.h
-/media/raid0/zeshi/isnobal/SnobalIO/_snobal.h
-
-/media/raid0/zeshi/isnobal/SnobalIO/init_snow.c
-snobalio.h
-/media/raid0/zeshi/isnobal/SnobalIO/snobalio.h
-_snobal.h
-/media/raid0/zeshi/isnobal/SnobalIO/_snobal.h
-
-/media/raid0/zeshi/isnobal/SnobalIO/run_snobal.c
-snobalio.h
-/media/raid0/zeshi/isnobal/SnobalIO/snobalio.h
-
-/media/raid0/zeshi/isnobal/SnobalIO/snobal_init.c
+/media/raid0/zeshi/SnobalIO/do_data_tstep.c
 h/snobal.h
 -
 snobalio.h
-/media/raid0/zeshi/isnobal/SnobalIO/snobalio.h
+/media/raid0/zeshi/SnobalIO/snobalio.h
+_snobal.h
+/media/raid0/zeshi/SnobalIO/_snobal.h
 
-/media/raid0/zeshi/isnobal/SnobalIO/snobalio.c
+/media/raid0/zeshi/SnobalIO/init_snow.c
 snobalio.h
-/media/raid0/zeshi/isnobal/SnobalIO/snobalio.h
+/media/raid0/zeshi/SnobalIO/snobalio.h
+_snobal.h
+/media/raid0/zeshi/SnobalIO/_snobal.h
+
+/media/raid0/zeshi/SnobalIO/run_isnobal_1d.c
+h/snobal.h
+-
+snobalio.h
+/media/raid0/zeshi/SnobalIO/snobalio.h
+
+/media/raid0/zeshi/SnobalIO/run_snobal.c
+snobalio.h
+/media/raid0/zeshi/SnobalIO/snobalio.h
+
+/media/raid0/zeshi/SnobalIO/snobal_init.c
+h/snobal.h
+-
+snobalio.h
+/media/raid0/zeshi/SnobalIO/snobalio.h
+
+/media/raid0/zeshi/SnobalIO/snobalio.c
+snobalio.h
+/media/raid0/zeshi/SnobalIO/snobalio.h
 stdio.h
 -
 stdlib.h
 -
 
-/media/raid0/zeshi/isnobal/SnobalIO/snobalio.h
+/media/raid0/zeshi/SnobalIO/snobalio.h
 omp.h
+-
+math.h
 -
 errno.h
 -
 h/ipw.h
-/media/raid0/zeshi/isnobal/SnobalIO/h/ipw.h
+/media/raid0/zeshi/SnobalIO/h/ipw.h
 h/snobal.h
-/media/raid0/zeshi/isnobal/SnobalIO/h/snobal.h
+/media/raid0/zeshi/SnobalIO/h/snobal.h
 h/envphys.h
-/media/raid0/zeshi/isnobal/SnobalIO/h/envphys.h
+/media/raid0/zeshi/SnobalIO/h/envphys.h
 h/snow.h
-/media/raid0/zeshi/isnobal/SnobalIO/h/snow.h
+/media/raid0/zeshi/SnobalIO/h/snow.h
 h/radiation.h
-/media/raid0/zeshi/isnobal/SnobalIO/h/radiation.h
+/media/raid0/zeshi/SnobalIO/h/radiation.h
 
-/media/raid0/zeshi/isnobal/SnobalIO/vars.c
+/media/raid0/zeshi/SnobalIO/vars.c
 snobalio.h
-/media/raid0/zeshi/isnobal/SnobalIO/snobalio.h
+/media/raid0/zeshi/SnobalIO/snobalio.h
 

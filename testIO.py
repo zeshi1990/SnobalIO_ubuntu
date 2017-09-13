@@ -1,7 +1,7 @@
 import ctypes
 import numpy as np
 
-_snobal = ctypes.CDLL('/home/zeshi/SnobalIO/build/libSnobalIO.so')
+_snobal = ctypes.CDLL('/media/raid0/zeshi/SnobalIO/cmake-build-debug/libSnobalIO.so')
 _snobal.dew_point_test.argtype = ctypes.c_double
 _snobal.dew_point_test.restype = ctypes.c_double
 
