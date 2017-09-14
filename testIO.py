@@ -12,7 +12,7 @@ states = np.array([[1.0, 0.8],
                    [300., 300.],
                    [273., 273.],
                    [273., 273.],
-                   [0., 0.],
+                   [273., 273.],
                    [0.2, 0.2]])
 
 climate_inputs = np.array([[200., 300.],
@@ -33,4 +33,17 @@ snobal.run_isnobal_1d(climate_inputs1=climate_inputs,
                       precip_inputs=precip_inputs,
                       climate_inputs2=climate_inputs)
 
-print snobal.
+print snobal.get_swe()
+
+res = snobal.run_snobal(states=states[:, 0],
+                        climate_inputs1=climate_inputs[:, 0],
+                        precip_inputs=precip_inputs[:, 0],
+                        params=model_params,
+                        measure_params=np.append(model_measure_params, elevations[0]))
+print res
+
+
+
+
+
+
