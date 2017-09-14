@@ -144,7 +144,7 @@ class Snobal(object):
         self._timelist = [initial_timestamp]
 
     def _init_snobal(self):
-        self._snobal = CDLL('/media/raid0/zeshi/SnobalIO/cmake-build-debug/libSnobalIO.so')
+        self._snobal = CDLL('/media/raid0/zeshi/isnobal/SnobalIO/cmake-build-debug/libSnobalIO.so')
 
         self._snobal.run_snobal.argtypes = (POINTER(ModelParams),
                                             POINTER(ModelMeasureParams),

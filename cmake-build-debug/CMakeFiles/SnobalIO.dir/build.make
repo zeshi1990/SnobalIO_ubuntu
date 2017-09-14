@@ -43,10 +43,10 @@ RM = /home/zeshi/Desktop/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/raid0/zeshi/SnobalIO
+CMAKE_SOURCE_DIR = /home/zeshi/dev/isnobal/SnobalIO
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/raid0/zeshi/SnobalIO/cmake-build-debug
+CMAKE_BINARY_DIR = /home/zeshi/dev/isnobal/SnobalIO/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/SnobalIO.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/SnobalIO.dir/flags.make
 
 CMakeFiles/SnobalIO.dir/_adj_layers.c.o: CMakeFiles/SnobalIO.dir/flags.make
 CMakeFiles/SnobalIO.dir/_adj_layers.c.o: ../_adj_layers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/raid0/zeshi/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/SnobalIO.dir/_adj_layers.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_adj_layers.c.o   -c /media/raid0/zeshi/SnobalIO/_adj_layers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zeshi/dev/isnobal/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/SnobalIO.dir/_adj_layers.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_adj_layers.c.o   -c /home/zeshi/dev/isnobal/SnobalIO/_adj_layers.c
 
 CMakeFiles/SnobalIO.dir/_adj_layers.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SnobalIO.dir/_adj_layers.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/raid0/zeshi/SnobalIO/_adj_layers.c > CMakeFiles/SnobalIO.dir/_adj_layers.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zeshi/dev/isnobal/SnobalIO/_adj_layers.c > CMakeFiles/SnobalIO.dir/_adj_layers.c.i
 
 CMakeFiles/SnobalIO.dir/_adj_layers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnobalIO.dir/_adj_layers.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/raid0/zeshi/SnobalIO/_adj_layers.c -o CMakeFiles/SnobalIO.dir/_adj_layers.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zeshi/dev/isnobal/SnobalIO/_adj_layers.c -o CMakeFiles/SnobalIO.dir/_adj_layers.c.s
 
 CMakeFiles/SnobalIO.dir/_adj_layers.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/SnobalIO.dir/_adj_layers.c.o.provides.build: CMakeFiles/SnobalIO.dir/
 
 CMakeFiles/SnobalIO.dir/_adj_snow.c.o: CMakeFiles/SnobalIO.dir/flags.make
 CMakeFiles/SnobalIO.dir/_adj_snow.c.o: ../_adj_snow.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/raid0/zeshi/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/SnobalIO.dir/_adj_snow.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_adj_snow.c.o   -c /media/raid0/zeshi/SnobalIO/_adj_snow.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zeshi/dev/isnobal/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/SnobalIO.dir/_adj_snow.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_adj_snow.c.o   -c /home/zeshi/dev/isnobal/SnobalIO/_adj_snow.c
 
 CMakeFiles/SnobalIO.dir/_adj_snow.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SnobalIO.dir/_adj_snow.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/raid0/zeshi/SnobalIO/_adj_snow.c > CMakeFiles/SnobalIO.dir/_adj_snow.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zeshi/dev/isnobal/SnobalIO/_adj_snow.c > CMakeFiles/SnobalIO.dir/_adj_snow.c.i
 
 CMakeFiles/SnobalIO.dir/_adj_snow.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnobalIO.dir/_adj_snow.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/raid0/zeshi/SnobalIO/_adj_snow.c -o CMakeFiles/SnobalIO.dir/_adj_snow.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zeshi/dev/isnobal/SnobalIO/_adj_snow.c -o CMakeFiles/SnobalIO.dir/_adj_snow.c.s
 
 CMakeFiles/SnobalIO.dir/_adj_snow.c.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/SnobalIO.dir/_adj_snow.c.o.provides.build: CMakeFiles/SnobalIO.dir/_a
 
 CMakeFiles/SnobalIO.dir/_advec.c.o: CMakeFiles/SnobalIO.dir/flags.make
 CMakeFiles/SnobalIO.dir/_advec.c.o: ../_advec.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/raid0/zeshi/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/SnobalIO.dir/_advec.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_advec.c.o   -c /media/raid0/zeshi/SnobalIO/_advec.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zeshi/dev/isnobal/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/SnobalIO.dir/_advec.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_advec.c.o   -c /home/zeshi/dev/isnobal/SnobalIO/_advec.c
 
 CMakeFiles/SnobalIO.dir/_advec.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SnobalIO.dir/_advec.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/raid0/zeshi/SnobalIO/_advec.c > CMakeFiles/SnobalIO.dir/_advec.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zeshi/dev/isnobal/SnobalIO/_advec.c > CMakeFiles/SnobalIO.dir/_advec.c.i
 
 CMakeFiles/SnobalIO.dir/_advec.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnobalIO.dir/_advec.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/raid0/zeshi/SnobalIO/_advec.c -o CMakeFiles/SnobalIO.dir/_advec.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zeshi/dev/isnobal/SnobalIO/_advec.c -o CMakeFiles/SnobalIO.dir/_advec.c.s
 
 CMakeFiles/SnobalIO.dir/_advec.c.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/SnobalIO.dir/_advec.c.o.provides.build: CMakeFiles/SnobalIO.dir/_adve
 
 CMakeFiles/SnobalIO.dir/_below_thold.c.o: CMakeFiles/SnobalIO.dir/flags.make
 CMakeFiles/SnobalIO.dir/_below_thold.c.o: ../_below_thold.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/raid0/zeshi/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/SnobalIO.dir/_below_thold.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_below_thold.c.o   -c /media/raid0/zeshi/SnobalIO/_below_thold.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zeshi/dev/isnobal/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/SnobalIO.dir/_below_thold.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_below_thold.c.o   -c /home/zeshi/dev/isnobal/SnobalIO/_below_thold.c
 
 CMakeFiles/SnobalIO.dir/_below_thold.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SnobalIO.dir/_below_thold.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/raid0/zeshi/SnobalIO/_below_thold.c > CMakeFiles/SnobalIO.dir/_below_thold.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zeshi/dev/isnobal/SnobalIO/_below_thold.c > CMakeFiles/SnobalIO.dir/_below_thold.c.i
 
 CMakeFiles/SnobalIO.dir/_below_thold.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnobalIO.dir/_below_thold.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/raid0/zeshi/SnobalIO/_below_thold.c -o CMakeFiles/SnobalIO.dir/_below_thold.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zeshi/dev/isnobal/SnobalIO/_below_thold.c -o CMakeFiles/SnobalIO.dir/_below_thold.c.s
 
 CMakeFiles/SnobalIO.dir/_below_thold.c.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/SnobalIO.dir/_below_thold.c.o.provides.build: CMakeFiles/SnobalIO.dir
 
 CMakeFiles/SnobalIO.dir/_calc_layers.c.o: CMakeFiles/SnobalIO.dir/flags.make
 CMakeFiles/SnobalIO.dir/_calc_layers.c.o: ../_calc_layers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/raid0/zeshi/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/SnobalIO.dir/_calc_layers.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_calc_layers.c.o   -c /media/raid0/zeshi/SnobalIO/_calc_layers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zeshi/dev/isnobal/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/SnobalIO.dir/_calc_layers.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_calc_layers.c.o   -c /home/zeshi/dev/isnobal/SnobalIO/_calc_layers.c
 
 CMakeFiles/SnobalIO.dir/_calc_layers.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SnobalIO.dir/_calc_layers.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/raid0/zeshi/SnobalIO/_calc_layers.c > CMakeFiles/SnobalIO.dir/_calc_layers.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zeshi/dev/isnobal/SnobalIO/_calc_layers.c > CMakeFiles/SnobalIO.dir/_calc_layers.c.i
 
 CMakeFiles/SnobalIO.dir/_calc_layers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnobalIO.dir/_calc_layers.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/raid0/zeshi/SnobalIO/_calc_layers.c -o CMakeFiles/SnobalIO.dir/_calc_layers.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zeshi/dev/isnobal/SnobalIO/_calc_layers.c -o CMakeFiles/SnobalIO.dir/_calc_layers.c.s
 
 CMakeFiles/SnobalIO.dir/_calc_layers.c.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/SnobalIO.dir/_calc_layers.c.o.provides.build: CMakeFiles/SnobalIO.dir
 
 CMakeFiles/SnobalIO.dir/_cold_content.c.o: CMakeFiles/SnobalIO.dir/flags.make
 CMakeFiles/SnobalIO.dir/_cold_content.c.o: ../_cold_content.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/raid0/zeshi/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/SnobalIO.dir/_cold_content.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_cold_content.c.o   -c /media/raid0/zeshi/SnobalIO/_cold_content.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zeshi/dev/isnobal/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/SnobalIO.dir/_cold_content.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_cold_content.c.o   -c /home/zeshi/dev/isnobal/SnobalIO/_cold_content.c
 
 CMakeFiles/SnobalIO.dir/_cold_content.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SnobalIO.dir/_cold_content.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/raid0/zeshi/SnobalIO/_cold_content.c > CMakeFiles/SnobalIO.dir/_cold_content.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zeshi/dev/isnobal/SnobalIO/_cold_content.c > CMakeFiles/SnobalIO.dir/_cold_content.c.i
 
 CMakeFiles/SnobalIO.dir/_cold_content.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnobalIO.dir/_cold_content.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/raid0/zeshi/SnobalIO/_cold_content.c -o CMakeFiles/SnobalIO.dir/_cold_content.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zeshi/dev/isnobal/SnobalIO/_cold_content.c -o CMakeFiles/SnobalIO.dir/_cold_content.c.s
 
 CMakeFiles/SnobalIO.dir/_cold_content.c.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/SnobalIO.dir/_cold_content.c.o.provides.build: CMakeFiles/SnobalIO.di
 
 CMakeFiles/SnobalIO.dir/_divide_tstep.c.o: CMakeFiles/SnobalIO.dir/flags.make
 CMakeFiles/SnobalIO.dir/_divide_tstep.c.o: ../_divide_tstep.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/raid0/zeshi/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/SnobalIO.dir/_divide_tstep.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_divide_tstep.c.o   -c /media/raid0/zeshi/SnobalIO/_divide_tstep.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zeshi/dev/isnobal/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/SnobalIO.dir/_divide_tstep.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_divide_tstep.c.o   -c /home/zeshi/dev/isnobal/SnobalIO/_divide_tstep.c
 
 CMakeFiles/SnobalIO.dir/_divide_tstep.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SnobalIO.dir/_divide_tstep.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/raid0/zeshi/SnobalIO/_divide_tstep.c > CMakeFiles/SnobalIO.dir/_divide_tstep.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zeshi/dev/isnobal/SnobalIO/_divide_tstep.c > CMakeFiles/SnobalIO.dir/_divide_tstep.c.i
 
 CMakeFiles/SnobalIO.dir/_divide_tstep.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnobalIO.dir/_divide_tstep.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/raid0/zeshi/SnobalIO/_divide_tstep.c -o CMakeFiles/SnobalIO.dir/_divide_tstep.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zeshi/dev/isnobal/SnobalIO/_divide_tstep.c -o CMakeFiles/SnobalIO.dir/_divide_tstep.c.s
 
 CMakeFiles/SnobalIO.dir/_divide_tstep.c.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/SnobalIO.dir/_divide_tstep.c.o.provides.build: CMakeFiles/SnobalIO.di
 
 CMakeFiles/SnobalIO.dir/_do_tstep.c.o: CMakeFiles/SnobalIO.dir/flags.make
 CMakeFiles/SnobalIO.dir/_do_tstep.c.o: ../_do_tstep.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/raid0/zeshi/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/SnobalIO.dir/_do_tstep.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_do_tstep.c.o   -c /media/raid0/zeshi/SnobalIO/_do_tstep.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zeshi/dev/isnobal/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/SnobalIO.dir/_do_tstep.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_do_tstep.c.o   -c /home/zeshi/dev/isnobal/SnobalIO/_do_tstep.c
 
 CMakeFiles/SnobalIO.dir/_do_tstep.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SnobalIO.dir/_do_tstep.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/raid0/zeshi/SnobalIO/_do_tstep.c > CMakeFiles/SnobalIO.dir/_do_tstep.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zeshi/dev/isnobal/SnobalIO/_do_tstep.c > CMakeFiles/SnobalIO.dir/_do_tstep.c.i
 
 CMakeFiles/SnobalIO.dir/_do_tstep.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnobalIO.dir/_do_tstep.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/raid0/zeshi/SnobalIO/_do_tstep.c -o CMakeFiles/SnobalIO.dir/_do_tstep.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zeshi/dev/isnobal/SnobalIO/_do_tstep.c -o CMakeFiles/SnobalIO.dir/_do_tstep.c.s
 
 CMakeFiles/SnobalIO.dir/_do_tstep.c.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/SnobalIO.dir/_do_tstep.c.o.provides.build: CMakeFiles/SnobalIO.dir/_d
 
 CMakeFiles/SnobalIO.dir/_e_bal.c.o: CMakeFiles/SnobalIO.dir/flags.make
 CMakeFiles/SnobalIO.dir/_e_bal.c.o: ../_e_bal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/raid0/zeshi/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/SnobalIO.dir/_e_bal.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_e_bal.c.o   -c /media/raid0/zeshi/SnobalIO/_e_bal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zeshi/dev/isnobal/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/SnobalIO.dir/_e_bal.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_e_bal.c.o   -c /home/zeshi/dev/isnobal/SnobalIO/_e_bal.c
 
 CMakeFiles/SnobalIO.dir/_e_bal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SnobalIO.dir/_e_bal.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/raid0/zeshi/SnobalIO/_e_bal.c > CMakeFiles/SnobalIO.dir/_e_bal.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zeshi/dev/isnobal/SnobalIO/_e_bal.c > CMakeFiles/SnobalIO.dir/_e_bal.c.i
 
 CMakeFiles/SnobalIO.dir/_e_bal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnobalIO.dir/_e_bal.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/raid0/zeshi/SnobalIO/_e_bal.c -o CMakeFiles/SnobalIO.dir/_e_bal.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zeshi/dev/isnobal/SnobalIO/_e_bal.c -o CMakeFiles/SnobalIO.dir/_e_bal.c.s
 
 CMakeFiles/SnobalIO.dir/_e_bal.c.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/SnobalIO.dir/_e_bal.c.o.provides.build: CMakeFiles/SnobalIO.dir/_e_ba
 
 CMakeFiles/SnobalIO.dir/_evap_cond.c.o: CMakeFiles/SnobalIO.dir/flags.make
 CMakeFiles/SnobalIO.dir/_evap_cond.c.o: ../_evap_cond.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/raid0/zeshi/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/SnobalIO.dir/_evap_cond.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_evap_cond.c.o   -c /media/raid0/zeshi/SnobalIO/_evap_cond.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zeshi/dev/isnobal/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/SnobalIO.dir/_evap_cond.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_evap_cond.c.o   -c /home/zeshi/dev/isnobal/SnobalIO/_evap_cond.c
 
 CMakeFiles/SnobalIO.dir/_evap_cond.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SnobalIO.dir/_evap_cond.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/raid0/zeshi/SnobalIO/_evap_cond.c > CMakeFiles/SnobalIO.dir/_evap_cond.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zeshi/dev/isnobal/SnobalIO/_evap_cond.c > CMakeFiles/SnobalIO.dir/_evap_cond.c.i
 
 CMakeFiles/SnobalIO.dir/_evap_cond.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnobalIO.dir/_evap_cond.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/raid0/zeshi/SnobalIO/_evap_cond.c -o CMakeFiles/SnobalIO.dir/_evap_cond.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zeshi/dev/isnobal/SnobalIO/_evap_cond.c -o CMakeFiles/SnobalIO.dir/_evap_cond.c.s
 
 CMakeFiles/SnobalIO.dir/_evap_cond.c.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/SnobalIO.dir/_evap_cond.c.o.provides.build: CMakeFiles/SnobalIO.dir/_
 
 CMakeFiles/SnobalIO.dir/_h2o_compact.c.o: CMakeFiles/SnobalIO.dir/flags.make
 CMakeFiles/SnobalIO.dir/_h2o_compact.c.o: ../_h2o_compact.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/raid0/zeshi/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/SnobalIO.dir/_h2o_compact.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_h2o_compact.c.o   -c /media/raid0/zeshi/SnobalIO/_h2o_compact.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zeshi/dev/isnobal/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/SnobalIO.dir/_h2o_compact.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_h2o_compact.c.o   -c /home/zeshi/dev/isnobal/SnobalIO/_h2o_compact.c
 
 CMakeFiles/SnobalIO.dir/_h2o_compact.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SnobalIO.dir/_h2o_compact.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/raid0/zeshi/SnobalIO/_h2o_compact.c > CMakeFiles/SnobalIO.dir/_h2o_compact.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zeshi/dev/isnobal/SnobalIO/_h2o_compact.c > CMakeFiles/SnobalIO.dir/_h2o_compact.c.i
 
 CMakeFiles/SnobalIO.dir/_h2o_compact.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnobalIO.dir/_h2o_compact.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/raid0/zeshi/SnobalIO/_h2o_compact.c -o CMakeFiles/SnobalIO.dir/_h2o_compact.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zeshi/dev/isnobal/SnobalIO/_h2o_compact.c -o CMakeFiles/SnobalIO.dir/_h2o_compact.c.s
 
 CMakeFiles/SnobalIO.dir/_h2o_compact.c.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/SnobalIO.dir/_h2o_compact.c.o.provides.build: CMakeFiles/SnobalIO.dir
 
 CMakeFiles/SnobalIO.dir/_h_le.c.o: CMakeFiles/SnobalIO.dir/flags.make
 CMakeFiles/SnobalIO.dir/_h_le.c.o: ../_h_le.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/raid0/zeshi/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/SnobalIO.dir/_h_le.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_h_le.c.o   -c /media/raid0/zeshi/SnobalIO/_h_le.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zeshi/dev/isnobal/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/SnobalIO.dir/_h_le.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_h_le.c.o   -c /home/zeshi/dev/isnobal/SnobalIO/_h_le.c
 
 CMakeFiles/SnobalIO.dir/_h_le.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SnobalIO.dir/_h_le.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/raid0/zeshi/SnobalIO/_h_le.c > CMakeFiles/SnobalIO.dir/_h_le.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zeshi/dev/isnobal/SnobalIO/_h_le.c > CMakeFiles/SnobalIO.dir/_h_le.c.i
 
 CMakeFiles/SnobalIO.dir/_h_le.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnobalIO.dir/_h_le.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/raid0/zeshi/SnobalIO/_h_le.c -o CMakeFiles/SnobalIO.dir/_h_le.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zeshi/dev/isnobal/SnobalIO/_h_le.c -o CMakeFiles/SnobalIO.dir/_h_le.c.s
 
 CMakeFiles/SnobalIO.dir/_h_le.c.o.requires:
 
@@ -347,16 +347,16 @@ CMakeFiles/SnobalIO.dir/_h_le.c.o.provides.build: CMakeFiles/SnobalIO.dir/_h_le.
 
 CMakeFiles/SnobalIO.dir/_layer_mass.c.o: CMakeFiles/SnobalIO.dir/flags.make
 CMakeFiles/SnobalIO.dir/_layer_mass.c.o: ../_layer_mass.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/raid0/zeshi/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/SnobalIO.dir/_layer_mass.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_layer_mass.c.o   -c /media/raid0/zeshi/SnobalIO/_layer_mass.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zeshi/dev/isnobal/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/SnobalIO.dir/_layer_mass.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_layer_mass.c.o   -c /home/zeshi/dev/isnobal/SnobalIO/_layer_mass.c
 
 CMakeFiles/SnobalIO.dir/_layer_mass.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SnobalIO.dir/_layer_mass.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/raid0/zeshi/SnobalIO/_layer_mass.c > CMakeFiles/SnobalIO.dir/_layer_mass.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zeshi/dev/isnobal/SnobalIO/_layer_mass.c > CMakeFiles/SnobalIO.dir/_layer_mass.c.i
 
 CMakeFiles/SnobalIO.dir/_layer_mass.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnobalIO.dir/_layer_mass.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/raid0/zeshi/SnobalIO/_layer_mass.c -o CMakeFiles/SnobalIO.dir/_layer_mass.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zeshi/dev/isnobal/SnobalIO/_layer_mass.c -o CMakeFiles/SnobalIO.dir/_layer_mass.c.s
 
 CMakeFiles/SnobalIO.dir/_layer_mass.c.o.requires:
 
@@ -371,16 +371,16 @@ CMakeFiles/SnobalIO.dir/_layer_mass.c.o.provides.build: CMakeFiles/SnobalIO.dir/
 
 CMakeFiles/SnobalIO.dir/_mass_bal.c.o: CMakeFiles/SnobalIO.dir/flags.make
 CMakeFiles/SnobalIO.dir/_mass_bal.c.o: ../_mass_bal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/raid0/zeshi/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/SnobalIO.dir/_mass_bal.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_mass_bal.c.o   -c /media/raid0/zeshi/SnobalIO/_mass_bal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zeshi/dev/isnobal/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/SnobalIO.dir/_mass_bal.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_mass_bal.c.o   -c /home/zeshi/dev/isnobal/SnobalIO/_mass_bal.c
 
 CMakeFiles/SnobalIO.dir/_mass_bal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SnobalIO.dir/_mass_bal.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/raid0/zeshi/SnobalIO/_mass_bal.c > CMakeFiles/SnobalIO.dir/_mass_bal.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zeshi/dev/isnobal/SnobalIO/_mass_bal.c > CMakeFiles/SnobalIO.dir/_mass_bal.c.i
 
 CMakeFiles/SnobalIO.dir/_mass_bal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnobalIO.dir/_mass_bal.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/raid0/zeshi/SnobalIO/_mass_bal.c -o CMakeFiles/SnobalIO.dir/_mass_bal.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zeshi/dev/isnobal/SnobalIO/_mass_bal.c -o CMakeFiles/SnobalIO.dir/_mass_bal.c.s
 
 CMakeFiles/SnobalIO.dir/_mass_bal.c.o.requires:
 
@@ -395,16 +395,16 @@ CMakeFiles/SnobalIO.dir/_mass_bal.c.o.provides.build: CMakeFiles/SnobalIO.dir/_m
 
 CMakeFiles/SnobalIO.dir/_net_rad.c.o: CMakeFiles/SnobalIO.dir/flags.make
 CMakeFiles/SnobalIO.dir/_net_rad.c.o: ../_net_rad.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/raid0/zeshi/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/SnobalIO.dir/_net_rad.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_net_rad.c.o   -c /media/raid0/zeshi/SnobalIO/_net_rad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zeshi/dev/isnobal/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/SnobalIO.dir/_net_rad.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_net_rad.c.o   -c /home/zeshi/dev/isnobal/SnobalIO/_net_rad.c
 
 CMakeFiles/SnobalIO.dir/_net_rad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SnobalIO.dir/_net_rad.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/raid0/zeshi/SnobalIO/_net_rad.c > CMakeFiles/SnobalIO.dir/_net_rad.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zeshi/dev/isnobal/SnobalIO/_net_rad.c > CMakeFiles/SnobalIO.dir/_net_rad.c.i
 
 CMakeFiles/SnobalIO.dir/_net_rad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnobalIO.dir/_net_rad.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/raid0/zeshi/SnobalIO/_net_rad.c -o CMakeFiles/SnobalIO.dir/_net_rad.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zeshi/dev/isnobal/SnobalIO/_net_rad.c -o CMakeFiles/SnobalIO.dir/_net_rad.c.s
 
 CMakeFiles/SnobalIO.dir/_net_rad.c.o.requires:
 
@@ -419,16 +419,16 @@ CMakeFiles/SnobalIO.dir/_net_rad.c.o.provides.build: CMakeFiles/SnobalIO.dir/_ne
 
 CMakeFiles/SnobalIO.dir/_new_density.c.o: CMakeFiles/SnobalIO.dir/flags.make
 CMakeFiles/SnobalIO.dir/_new_density.c.o: ../_new_density.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/raid0/zeshi/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/SnobalIO.dir/_new_density.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_new_density.c.o   -c /media/raid0/zeshi/SnobalIO/_new_density.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zeshi/dev/isnobal/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/SnobalIO.dir/_new_density.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_new_density.c.o   -c /home/zeshi/dev/isnobal/SnobalIO/_new_density.c
 
 CMakeFiles/SnobalIO.dir/_new_density.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SnobalIO.dir/_new_density.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/raid0/zeshi/SnobalIO/_new_density.c > CMakeFiles/SnobalIO.dir/_new_density.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zeshi/dev/isnobal/SnobalIO/_new_density.c > CMakeFiles/SnobalIO.dir/_new_density.c.i
 
 CMakeFiles/SnobalIO.dir/_new_density.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnobalIO.dir/_new_density.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/raid0/zeshi/SnobalIO/_new_density.c -o CMakeFiles/SnobalIO.dir/_new_density.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zeshi/dev/isnobal/SnobalIO/_new_density.c -o CMakeFiles/SnobalIO.dir/_new_density.c.s
 
 CMakeFiles/SnobalIO.dir/_new_density.c.o.requires:
 
@@ -443,16 +443,16 @@ CMakeFiles/SnobalIO.dir/_new_density.c.o.provides.build: CMakeFiles/SnobalIO.dir
 
 CMakeFiles/SnobalIO.dir/_precip.c.o: CMakeFiles/SnobalIO.dir/flags.make
 CMakeFiles/SnobalIO.dir/_precip.c.o: ../_precip.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/raid0/zeshi/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/SnobalIO.dir/_precip.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_precip.c.o   -c /media/raid0/zeshi/SnobalIO/_precip.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zeshi/dev/isnobal/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/SnobalIO.dir/_precip.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_precip.c.o   -c /home/zeshi/dev/isnobal/SnobalIO/_precip.c
 
 CMakeFiles/SnobalIO.dir/_precip.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SnobalIO.dir/_precip.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/raid0/zeshi/SnobalIO/_precip.c > CMakeFiles/SnobalIO.dir/_precip.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zeshi/dev/isnobal/SnobalIO/_precip.c > CMakeFiles/SnobalIO.dir/_precip.c.i
 
 CMakeFiles/SnobalIO.dir/_precip.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnobalIO.dir/_precip.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/raid0/zeshi/SnobalIO/_precip.c -o CMakeFiles/SnobalIO.dir/_precip.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zeshi/dev/isnobal/SnobalIO/_precip.c -o CMakeFiles/SnobalIO.dir/_precip.c.s
 
 CMakeFiles/SnobalIO.dir/_precip.c.o.requires:
 
@@ -467,16 +467,16 @@ CMakeFiles/SnobalIO.dir/_precip.c.o.provides.build: CMakeFiles/SnobalIO.dir/_pre
 
 CMakeFiles/SnobalIO.dir/_runoff.c.o: CMakeFiles/SnobalIO.dir/flags.make
 CMakeFiles/SnobalIO.dir/_runoff.c.o: ../_runoff.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/raid0/zeshi/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/SnobalIO.dir/_runoff.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_runoff.c.o   -c /media/raid0/zeshi/SnobalIO/_runoff.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zeshi/dev/isnobal/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/SnobalIO.dir/_runoff.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_runoff.c.o   -c /home/zeshi/dev/isnobal/SnobalIO/_runoff.c
 
 CMakeFiles/SnobalIO.dir/_runoff.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SnobalIO.dir/_runoff.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/raid0/zeshi/SnobalIO/_runoff.c > CMakeFiles/SnobalIO.dir/_runoff.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zeshi/dev/isnobal/SnobalIO/_runoff.c > CMakeFiles/SnobalIO.dir/_runoff.c.i
 
 CMakeFiles/SnobalIO.dir/_runoff.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnobalIO.dir/_runoff.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/raid0/zeshi/SnobalIO/_runoff.c -o CMakeFiles/SnobalIO.dir/_runoff.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zeshi/dev/isnobal/SnobalIO/_runoff.c -o CMakeFiles/SnobalIO.dir/_runoff.c.s
 
 CMakeFiles/SnobalIO.dir/_runoff.c.o.requires:
 
@@ -491,16 +491,16 @@ CMakeFiles/SnobalIO.dir/_runoff.c.o.provides.build: CMakeFiles/SnobalIO.dir/_run
 
 CMakeFiles/SnobalIO.dir/_snowmelt.c.o: CMakeFiles/SnobalIO.dir/flags.make
 CMakeFiles/SnobalIO.dir/_snowmelt.c.o: ../_snowmelt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/raid0/zeshi/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/SnobalIO.dir/_snowmelt.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_snowmelt.c.o   -c /media/raid0/zeshi/SnobalIO/_snowmelt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zeshi/dev/isnobal/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/SnobalIO.dir/_snowmelt.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_snowmelt.c.o   -c /home/zeshi/dev/isnobal/SnobalIO/_snowmelt.c
 
 CMakeFiles/SnobalIO.dir/_snowmelt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SnobalIO.dir/_snowmelt.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/raid0/zeshi/SnobalIO/_snowmelt.c > CMakeFiles/SnobalIO.dir/_snowmelt.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zeshi/dev/isnobal/SnobalIO/_snowmelt.c > CMakeFiles/SnobalIO.dir/_snowmelt.c.i
 
 CMakeFiles/SnobalIO.dir/_snowmelt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnobalIO.dir/_snowmelt.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/raid0/zeshi/SnobalIO/_snowmelt.c -o CMakeFiles/SnobalIO.dir/_snowmelt.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zeshi/dev/isnobal/SnobalIO/_snowmelt.c -o CMakeFiles/SnobalIO.dir/_snowmelt.c.s
 
 CMakeFiles/SnobalIO.dir/_snowmelt.c.o.requires:
 
@@ -515,16 +515,16 @@ CMakeFiles/SnobalIO.dir/_snowmelt.c.o.provides.build: CMakeFiles/SnobalIO.dir/_s
 
 CMakeFiles/SnobalIO.dir/_time_compact.c.o: CMakeFiles/SnobalIO.dir/flags.make
 CMakeFiles/SnobalIO.dir/_time_compact.c.o: ../_time_compact.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/raid0/zeshi/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/SnobalIO.dir/_time_compact.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_time_compact.c.o   -c /media/raid0/zeshi/SnobalIO/_time_compact.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zeshi/dev/isnobal/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/SnobalIO.dir/_time_compact.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_time_compact.c.o   -c /home/zeshi/dev/isnobal/SnobalIO/_time_compact.c
 
 CMakeFiles/SnobalIO.dir/_time_compact.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SnobalIO.dir/_time_compact.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/raid0/zeshi/SnobalIO/_time_compact.c > CMakeFiles/SnobalIO.dir/_time_compact.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zeshi/dev/isnobal/SnobalIO/_time_compact.c > CMakeFiles/SnobalIO.dir/_time_compact.c.i
 
 CMakeFiles/SnobalIO.dir/_time_compact.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnobalIO.dir/_time_compact.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/raid0/zeshi/SnobalIO/_time_compact.c -o CMakeFiles/SnobalIO.dir/_time_compact.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zeshi/dev/isnobal/SnobalIO/_time_compact.c -o CMakeFiles/SnobalIO.dir/_time_compact.c.s
 
 CMakeFiles/SnobalIO.dir/_time_compact.c.o.requires:
 
@@ -539,16 +539,16 @@ CMakeFiles/SnobalIO.dir/_time_compact.c.o.provides.build: CMakeFiles/SnobalIO.di
 
 CMakeFiles/SnobalIO.dir/_vars.c.o: CMakeFiles/SnobalIO.dir/flags.make
 CMakeFiles/SnobalIO.dir/_vars.c.o: ../_vars.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/raid0/zeshi/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/SnobalIO.dir/_vars.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_vars.c.o   -c /media/raid0/zeshi/SnobalIO/_vars.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zeshi/dev/isnobal/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/SnobalIO.dir/_vars.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/_vars.c.o   -c /home/zeshi/dev/isnobal/SnobalIO/_vars.c
 
 CMakeFiles/SnobalIO.dir/_vars.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SnobalIO.dir/_vars.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/raid0/zeshi/SnobalIO/_vars.c > CMakeFiles/SnobalIO.dir/_vars.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zeshi/dev/isnobal/SnobalIO/_vars.c > CMakeFiles/SnobalIO.dir/_vars.c.i
 
 CMakeFiles/SnobalIO.dir/_vars.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnobalIO.dir/_vars.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/raid0/zeshi/SnobalIO/_vars.c -o CMakeFiles/SnobalIO.dir/_vars.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zeshi/dev/isnobal/SnobalIO/_vars.c -o CMakeFiles/SnobalIO.dir/_vars.c.s
 
 CMakeFiles/SnobalIO.dir/_vars.c.o.requires:
 
@@ -563,16 +563,16 @@ CMakeFiles/SnobalIO.dir/_vars.c.o.provides.build: CMakeFiles/SnobalIO.dir/_vars.
 
 CMakeFiles/SnobalIO.dir/do_data_tstep.c.o: CMakeFiles/SnobalIO.dir/flags.make
 CMakeFiles/SnobalIO.dir/do_data_tstep.c.o: ../do_data_tstep.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/raid0/zeshi/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/SnobalIO.dir/do_data_tstep.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/do_data_tstep.c.o   -c /media/raid0/zeshi/SnobalIO/do_data_tstep.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zeshi/dev/isnobal/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/SnobalIO.dir/do_data_tstep.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/do_data_tstep.c.o   -c /home/zeshi/dev/isnobal/SnobalIO/do_data_tstep.c
 
 CMakeFiles/SnobalIO.dir/do_data_tstep.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SnobalIO.dir/do_data_tstep.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/raid0/zeshi/SnobalIO/do_data_tstep.c > CMakeFiles/SnobalIO.dir/do_data_tstep.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zeshi/dev/isnobal/SnobalIO/do_data_tstep.c > CMakeFiles/SnobalIO.dir/do_data_tstep.c.i
 
 CMakeFiles/SnobalIO.dir/do_data_tstep.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnobalIO.dir/do_data_tstep.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/raid0/zeshi/SnobalIO/do_data_tstep.c -o CMakeFiles/SnobalIO.dir/do_data_tstep.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zeshi/dev/isnobal/SnobalIO/do_data_tstep.c -o CMakeFiles/SnobalIO.dir/do_data_tstep.c.s
 
 CMakeFiles/SnobalIO.dir/do_data_tstep.c.o.requires:
 
@@ -587,16 +587,16 @@ CMakeFiles/SnobalIO.dir/do_data_tstep.c.o.provides.build: CMakeFiles/SnobalIO.di
 
 CMakeFiles/SnobalIO.dir/init_snow.c.o: CMakeFiles/SnobalIO.dir/flags.make
 CMakeFiles/SnobalIO.dir/init_snow.c.o: ../init_snow.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/raid0/zeshi/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/SnobalIO.dir/init_snow.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/init_snow.c.o   -c /media/raid0/zeshi/SnobalIO/init_snow.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zeshi/dev/isnobal/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/SnobalIO.dir/init_snow.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/init_snow.c.o   -c /home/zeshi/dev/isnobal/SnobalIO/init_snow.c
 
 CMakeFiles/SnobalIO.dir/init_snow.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SnobalIO.dir/init_snow.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/raid0/zeshi/SnobalIO/init_snow.c > CMakeFiles/SnobalIO.dir/init_snow.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zeshi/dev/isnobal/SnobalIO/init_snow.c > CMakeFiles/SnobalIO.dir/init_snow.c.i
 
 CMakeFiles/SnobalIO.dir/init_snow.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnobalIO.dir/init_snow.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/raid0/zeshi/SnobalIO/init_snow.c -o CMakeFiles/SnobalIO.dir/init_snow.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zeshi/dev/isnobal/SnobalIO/init_snow.c -o CMakeFiles/SnobalIO.dir/init_snow.c.s
 
 CMakeFiles/SnobalIO.dir/init_snow.c.o.requires:
 
@@ -611,16 +611,16 @@ CMakeFiles/SnobalIO.dir/init_snow.c.o.provides.build: CMakeFiles/SnobalIO.dir/in
 
 CMakeFiles/SnobalIO.dir/run_isnobal_1d.c.o: CMakeFiles/SnobalIO.dir/flags.make
 CMakeFiles/SnobalIO.dir/run_isnobal_1d.c.o: ../run_isnobal_1d.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/raid0/zeshi/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/SnobalIO.dir/run_isnobal_1d.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/run_isnobal_1d.c.o   -c /media/raid0/zeshi/SnobalIO/run_isnobal_1d.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zeshi/dev/isnobal/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/SnobalIO.dir/run_isnobal_1d.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/run_isnobal_1d.c.o   -c /home/zeshi/dev/isnobal/SnobalIO/run_isnobal_1d.c
 
 CMakeFiles/SnobalIO.dir/run_isnobal_1d.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SnobalIO.dir/run_isnobal_1d.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/raid0/zeshi/SnobalIO/run_isnobal_1d.c > CMakeFiles/SnobalIO.dir/run_isnobal_1d.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zeshi/dev/isnobal/SnobalIO/run_isnobal_1d.c > CMakeFiles/SnobalIO.dir/run_isnobal_1d.c.i
 
 CMakeFiles/SnobalIO.dir/run_isnobal_1d.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnobalIO.dir/run_isnobal_1d.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/raid0/zeshi/SnobalIO/run_isnobal_1d.c -o CMakeFiles/SnobalIO.dir/run_isnobal_1d.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zeshi/dev/isnobal/SnobalIO/run_isnobal_1d.c -o CMakeFiles/SnobalIO.dir/run_isnobal_1d.c.s
 
 CMakeFiles/SnobalIO.dir/run_isnobal_1d.c.o.requires:
 
@@ -635,16 +635,16 @@ CMakeFiles/SnobalIO.dir/run_isnobal_1d.c.o.provides.build: CMakeFiles/SnobalIO.d
 
 CMakeFiles/SnobalIO.dir/run_snobal.c.o: CMakeFiles/SnobalIO.dir/flags.make
 CMakeFiles/SnobalIO.dir/run_snobal.c.o: ../run_snobal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/raid0/zeshi/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/SnobalIO.dir/run_snobal.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/run_snobal.c.o   -c /media/raid0/zeshi/SnobalIO/run_snobal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zeshi/dev/isnobal/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/SnobalIO.dir/run_snobal.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/run_snobal.c.o   -c /home/zeshi/dev/isnobal/SnobalIO/run_snobal.c
 
 CMakeFiles/SnobalIO.dir/run_snobal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SnobalIO.dir/run_snobal.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/raid0/zeshi/SnobalIO/run_snobal.c > CMakeFiles/SnobalIO.dir/run_snobal.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zeshi/dev/isnobal/SnobalIO/run_snobal.c > CMakeFiles/SnobalIO.dir/run_snobal.c.i
 
 CMakeFiles/SnobalIO.dir/run_snobal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnobalIO.dir/run_snobal.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/raid0/zeshi/SnobalIO/run_snobal.c -o CMakeFiles/SnobalIO.dir/run_snobal.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zeshi/dev/isnobal/SnobalIO/run_snobal.c -o CMakeFiles/SnobalIO.dir/run_snobal.c.s
 
 CMakeFiles/SnobalIO.dir/run_snobal.c.o.requires:
 
@@ -659,16 +659,16 @@ CMakeFiles/SnobalIO.dir/run_snobal.c.o.provides.build: CMakeFiles/SnobalIO.dir/r
 
 CMakeFiles/SnobalIO.dir/snobal_init.c.o: CMakeFiles/SnobalIO.dir/flags.make
 CMakeFiles/SnobalIO.dir/snobal_init.c.o: ../snobal_init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/raid0/zeshi/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/SnobalIO.dir/snobal_init.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/snobal_init.c.o   -c /media/raid0/zeshi/SnobalIO/snobal_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zeshi/dev/isnobal/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/SnobalIO.dir/snobal_init.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/snobal_init.c.o   -c /home/zeshi/dev/isnobal/SnobalIO/snobal_init.c
 
 CMakeFiles/SnobalIO.dir/snobal_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SnobalIO.dir/snobal_init.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/raid0/zeshi/SnobalIO/snobal_init.c > CMakeFiles/SnobalIO.dir/snobal_init.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zeshi/dev/isnobal/SnobalIO/snobal_init.c > CMakeFiles/SnobalIO.dir/snobal_init.c.i
 
 CMakeFiles/SnobalIO.dir/snobal_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnobalIO.dir/snobal_init.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/raid0/zeshi/SnobalIO/snobal_init.c -o CMakeFiles/SnobalIO.dir/snobal_init.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zeshi/dev/isnobal/SnobalIO/snobal_init.c -o CMakeFiles/SnobalIO.dir/snobal_init.c.s
 
 CMakeFiles/SnobalIO.dir/snobal_init.c.o.requires:
 
@@ -683,16 +683,16 @@ CMakeFiles/SnobalIO.dir/snobal_init.c.o.provides.build: CMakeFiles/SnobalIO.dir/
 
 CMakeFiles/SnobalIO.dir/snobalio.c.o: CMakeFiles/SnobalIO.dir/flags.make
 CMakeFiles/SnobalIO.dir/snobalio.c.o: ../snobalio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/raid0/zeshi/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/SnobalIO.dir/snobalio.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/snobalio.c.o   -c /media/raid0/zeshi/SnobalIO/snobalio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zeshi/dev/isnobal/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/SnobalIO.dir/snobalio.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/snobalio.c.o   -c /home/zeshi/dev/isnobal/SnobalIO/snobalio.c
 
 CMakeFiles/SnobalIO.dir/snobalio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SnobalIO.dir/snobalio.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/raid0/zeshi/SnobalIO/snobalio.c > CMakeFiles/SnobalIO.dir/snobalio.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zeshi/dev/isnobal/SnobalIO/snobalio.c > CMakeFiles/SnobalIO.dir/snobalio.c.i
 
 CMakeFiles/SnobalIO.dir/snobalio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnobalIO.dir/snobalio.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/raid0/zeshi/SnobalIO/snobalio.c -o CMakeFiles/SnobalIO.dir/snobalio.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zeshi/dev/isnobal/SnobalIO/snobalio.c -o CMakeFiles/SnobalIO.dir/snobalio.c.s
 
 CMakeFiles/SnobalIO.dir/snobalio.c.o.requires:
 
@@ -707,16 +707,16 @@ CMakeFiles/SnobalIO.dir/snobalio.c.o.provides.build: CMakeFiles/SnobalIO.dir/sno
 
 CMakeFiles/SnobalIO.dir/vars.c.o: CMakeFiles/SnobalIO.dir/flags.make
 CMakeFiles/SnobalIO.dir/vars.c.o: ../vars.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/raid0/zeshi/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/SnobalIO.dir/vars.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/vars.c.o   -c /media/raid0/zeshi/SnobalIO/vars.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zeshi/dev/isnobal/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/SnobalIO.dir/vars.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnobalIO.dir/vars.c.o   -c /home/zeshi/dev/isnobal/SnobalIO/vars.c
 
 CMakeFiles/SnobalIO.dir/vars.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SnobalIO.dir/vars.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/raid0/zeshi/SnobalIO/vars.c > CMakeFiles/SnobalIO.dir/vars.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zeshi/dev/isnobal/SnobalIO/vars.c > CMakeFiles/SnobalIO.dir/vars.c.i
 
 CMakeFiles/SnobalIO.dir/vars.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnobalIO.dir/vars.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/raid0/zeshi/SnobalIO/vars.c -o CMakeFiles/SnobalIO.dir/vars.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zeshi/dev/isnobal/SnobalIO/vars.c -o CMakeFiles/SnobalIO.dir/vars.c.s
 
 CMakeFiles/SnobalIO.dir/vars.c.o.requires:
 
@@ -793,7 +793,7 @@ libSnobalIO.so: CMakeFiles/SnobalIO.dir/snobalio.c.o
 libSnobalIO.so: CMakeFiles/SnobalIO.dir/vars.c.o
 libSnobalIO.so: CMakeFiles/SnobalIO.dir/build.make
 libSnobalIO.so: CMakeFiles/SnobalIO.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/raid0/zeshi/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking C shared library libSnobalIO.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zeshi/dev/isnobal/SnobalIO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking C shared library libSnobalIO.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SnobalIO.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -837,6 +837,6 @@ CMakeFiles/SnobalIO.dir/clean:
 .PHONY : CMakeFiles/SnobalIO.dir/clean
 
 CMakeFiles/SnobalIO.dir/depend:
-	cd /media/raid0/zeshi/SnobalIO/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/raid0/zeshi/SnobalIO /media/raid0/zeshi/SnobalIO /media/raid0/zeshi/SnobalIO/cmake-build-debug /media/raid0/zeshi/SnobalIO/cmake-build-debug /media/raid0/zeshi/SnobalIO/cmake-build-debug/CMakeFiles/SnobalIO.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zeshi/dev/isnobal/SnobalIO/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zeshi/dev/isnobal/SnobalIO /home/zeshi/dev/isnobal/SnobalIO /home/zeshi/dev/isnobal/SnobalIO/cmake-build-debug /home/zeshi/dev/isnobal/SnobalIO/cmake-build-debug /home/zeshi/dev/isnobal/SnobalIO/cmake-build-debug/CMakeFiles/SnobalIO.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/SnobalIO.dir/depend
 

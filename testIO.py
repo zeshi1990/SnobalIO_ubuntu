@@ -4,29 +4,29 @@ import numpy as np
 
 from snobalio import Snobal
 
-model_params = np.array([1, 0, 0.5, 0.1, 21600, 0, 0])
+model_params = np.array([1, 0, 0.5, 0.1, 3600, 0, 0])
 model_measure_params = np.array([1, 0.25, 10, 10, 0.1])
 elevations = np.array([2500., 2500.])
 
 states = np.array([[1.0, 0.8],
                    [300., 300.],
-                   [273.16, 273.16],
-                   [273.16, 273.16],
+                   [270.16, 270.16],
+                   [270.16, 270.16],
                    [273.16, 273.16],
                    [0.2, 0.2]])
 
-climate_inputs = np.array([[200., 300.],
-                           [200., 300.],
-                           [275., 275.],
-                           [101325., 101325.],
-                           [1.5, 1.5],
-                           [273.16, 273.16]])
+climate_inputs = np.array([[200., 200.],
+                           [300., 300.],
+                           [273., 273.],
+                           [100000., 100000.],
+                           [3, 3],
+                           [274.16, 274.16]])
 
 precip_inputs = np.array([[0, 0],
                           [0, 0],
                           [0, 0],
                           [0, 0],
-                          [273.16, 273.16]])
+                          [274.16, 274.16]])
 
 snobal = Snobal(model_params, model_measure_params, elevations, states, datetime(2014, 1, 1))
 snobal.run_isnobal_1d(climate_inputs1=climate_inputs,
