@@ -119,11 +119,11 @@ class Snobal(object):
         elevations : np.ndarray, (n, ), an array of elevations of modeling pixels
 
         initial_states : np.ndarray, (6, n), a 2-D array, each column is a state vector, which are
-            0: z_s: snowdepth
-            1: rho: average snow density
-            2: T_s: average snow cover temperature
-            3: T_s_0: active snow layer temperature
-            4: T_s_l: lower layer temperature
+            0: z_s: snowdepth, m
+            1: rho: average snow density, kg/m^3
+            2: T_s: average snow cover temperature, K (Kelvin)
+            3: T_s_0: active snow layer temperature, K (Kelvin)
+            4: T_s_l: lower layer temperature, C (Celsius)
             5: h2o_sat: % of liquid H2O saturation
         """
         assert isinstance(model_params, np.ndarray)
