@@ -123,7 +123,7 @@ class Snobal(object):
             1: rho: average snow density, kg/m^3
             2: T_s: average snow cover temperature, K (Kelvin)
             3: T_s_0: active snow layer temperature, K (Kelvin)
-            4: T_s_l: lower layer temperature, C (Celsius)
+            4: T_s_l: lower layer temperature, K (Kelvin)
             5: h2o_sat: % of liquid H2O saturation
         """
         assert isinstance(model_params, np.ndarray)
@@ -176,17 +176,17 @@ class Snobal(object):
         climate_inputs1 : np.ndarray, (6, n), climate inputs, which are:
             S_n: net solar radiation (W/m^2)
             I_lw: incoming longwave (thermal) rad (W/m^2)
-            T_a: air temp (C)
+            T_a: air temp (Kelvin)
             e_a: vapor pressure (Pa)
             u: wind speed (m/sec)
-            T_g: soil temp at depth z_g (C)
+            T_g: soil temp at depth z_g (Kelvin)
 
         precip_inputs : np.ndarray, (5, n), precip inputs, which are:
             precip_now: precipitation occur for current timestep?
             m_pp: specific mass of total precip (kg/m^2), mm of water
             percent_snow: % of total mass that's snow (0 to 1.0)
             rho_snow: density of snowfall (kg/m^3)
-            T_pp: precip temp (C)
+            T_pp: precip temp (Kelvin)
 
         climate_inputs2 : np.ndarray, same as climate_input1 but the end of current timestep
         """
