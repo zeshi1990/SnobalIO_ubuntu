@@ -1,60 +1,36 @@
-import ctypes
+from datetime import datetime
+
 import numpy as np
 
-_snobal = ctypes.CDLL('/media/raid0/zeshi/SnobalIO/cmake-build-debug/libSnobalIO.so')
-_snobal.dew_point_test.argtype = ctypes.c_double
-_snobal.dew_point_test.restype = ctypes.c_double
+from snobalio import Snobal
 
-def dew_point_test(val):
-    global _snobal
-    result = _snobal.dew_point_test(ctypes.c_double(val))
-    return result
+model_params = np.array([1, 0, 0.5, 0.1, 3600, 0, 0])
+model_measure_params = np.array([1, 0.25, 10, 10, 0.1])
+elevations = np.array([2500., 3000.])
 
-_snobal.multiple_vars_test.argtypes = (ctypes.c_double, ctypes.c_double)
-_snobal.multiple_vars_test.restype = ctypes.POINTER(ctypes.c_double)
+states = np.array([[1.0, 0.8],
+                   [300., 300.],
+                   [273., 273.],
+                   [273., 273.],
+                   [0., 0.],
+                   [0.2, 0.2]])
 
-def multiple_vars_test(e_val, tk_val):
-    global _snobal
-    result = _snobal.multiple_vars_test(ctypes.c_double(e_val), ctypes.c_double(tk_val))
-    return result
+climate_inputs = np.array([[200., 300.],
+                           [200., 300.],
+                           [0., 0.],
+                           [101325., 101325.],
+                           [1.5, 1.5],
+                           [0., 0.]])
 
-class foo_struct(ctypes.Structure):
-    _fields_ = [("dew_p", ctypes.c_double), ("sat_water", ctypes.c_double)]
+precip_inputs = np.array([[0, 0],
+                          [0, 0],
+                          [0, 0],
+                          [0, 0],
+                          [0, 0]])
 
-class foo_struct_input(ctypes.Structure):
-    _fields_ = [("e", ctypes.c_double), ("tk", ctypes.c_double)]
+snobal = Snobal(model_params, model_measure_params, elevations, states, datetime(2014, 1, 1))
+snobal.run_isnobal_1d(climate_inputs1=climate_inputs,
+                      precip_inputs=precip_inputs,
+                      climate_inputs2=climate_inputs)
 
-_snobal.struct_test.argtypes = (ctypes.c_double, ctypes.c_double)
-_snobal.struct_test.restype = ctypes.POINTER(foo_struct)
-
-def struct_test(e_val, tk_val):
-    global _snobal
-    result = _snobal.struct_test(ctypes.c_double(e_val), ctypes.c_double(tk_val))
-    return result
-
-_snobal.struct_io_test.argtype = ctypes.POINTER(foo_struct_input)
-_snobal.struct_io_test.restype = ctypes.POINTER(foo_struct)
-
-def struct_io_test(e_val, tk_val):
-    global _snobal
-    struct_input = foo_struct_input(e_val, tk_val)
-    result = _snobal.struct_io_test(ctypes.byref(struct_input))
-    return result
-
-
-
-
-print dew_point_test(101325.0)
-multi_result = multiple_vars_test(101325.0, 373.0)
-print multi_result[0]
-print multi_result[1]
-
-struct_result = struct_test(101325.0, 373.0)
-print struct_result.contents.dew_p
-print struct_result.contents.sat_water
-
-struct_io_result = struct_io_test(101325.0, 373.0)
-print struct_io_result.contents.dew_p
-print struct_io_result.contents.sat_water
-print type(struct_io_result)
-print isinstance(struct_io_result, ctypes.POINTER(foo_struct))
+print snobal.

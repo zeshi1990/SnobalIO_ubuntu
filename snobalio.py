@@ -228,6 +228,9 @@ class Snobal(object):
         self._timelist.append(self._timelist[-1] + timedelta(seconds=self.model_params[4]))
         return 0
 
+    def get_swe(self):
+        return self._c_swe
+
     def _run_isnobal_1d(self, params, measure_params, i_elevation, i_states, i_inputs1, i_inputs2, i_precips):
         model_params_obj = self._construct_model_params(params)
         model_measure_params_1d = self._construct_model_measure_params_1d(measure_params, i_elevation)
