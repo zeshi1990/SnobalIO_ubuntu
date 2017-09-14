@@ -96,13 +96,13 @@ double ** run_isnobal_1d(long length,
         if (!snobal_init(model_params1, model_measure_params1,
                          model_states1, model_climate_inputs1,
                          model_climate_inputs2, model_precip_inputs1)) {
-            printf("Initialization failed");
-            states_results[0][i] = -99.;
-            states_results[1][i] = -99.;
-            states_results[2][i] = -99.;
-            states_results[3][i] = -99.;
-            states_results[4][i] = -99.;
-            states_results[5][i] = -99.;
+            printf("Initialization failed\n");
+            states_results[0][i] = model_states1->z_s;
+            states_results[1][i] = model_states1->rho;
+            states_results[2][i] = model_states1->T_s;
+            states_results[3][i] = model_states1->T_s_0;
+            states_results[4][i] = model_states1->T_s_l;
+            states_results[5][i] = model_states1->h2o_sat;
             continue;
         }
 
@@ -111,12 +111,12 @@ double ** run_isnobal_1d(long length,
 
         if(!do_data_tstep()) {
             printf("Oops! Something happened when running snobal, please check log files.\n");
-            states_results[0][i] = -99.;
-            states_results[1][i] = -99.;
-            states_results[2][i] = -99.;
-            states_results[3][i] = -99.;
-            states_results[4][i] = -99.;
-            states_results[5][i] = -99.;
+            states_results[0][i] = model_states1->z_s;
+            states_results[1][i] = model_states1->rho;
+            states_results[2][i] = model_states1->T_s;
+            states_results[3][i] = model_states1->T_s_0;
+            states_results[4][i] = model_states1->T_s_l;
+            states_results[5][i] = model_states1->h2o_sat;
             continue;
         };
 
