@@ -135,13 +135,13 @@ class Snobal(object):
         self.model_measure_params = model_measure_params
         self.elevations = elevations
         self.states_0 = initial_states
-        self.c_states = self.states_0.copy()
+        self._c_states = self.states_0.copy()
         assert len(self.elevations) == self.states_0.shape[1]
         self._snobal = None
         self._init_snobal()
-        self.swe = self.states_0[0] * self.states_0[1]    # Please note that the SWE are in mm
-        self.c_swe = self.states_0[0] * self.states_0[1]
-        self.timelist = [initial_timestamp]
+        self._swe = self.states_0[0] * self.states_0[1]    # Please note that the SWE are in mm
+        self._c_swe = self.states_0[0] * self.states_0[1]
+        self._timelist = [initial_timestamp]
 
     def _init_snobal(self):
         self._snobal = CDLL('/media/raid0/zeshi/SnobalIO/cmake-build-debug/libSnobalIO.so')
@@ -190,7 +190,7 @@ class Snobal(object):
 
         climate_inputs2 : np.ndarray, same as climate_input1 but the end of current timestep
         """
-        i_states = self.c_states
+        i_states = self._c_states
         pixel_length = i_states.shape[1]
 
         # Assertion control on input1
@@ -222,10 +222,10 @@ class Snobal(object):
                                       i_inputs1=i_inputs1,
                                       i_inputs2=i_inputs2,
                                       i_precips=i_precips)
-        self.c_states = result
-        self.swe = np.column_stack((self.swe, self.c_states[0] * self.c_states[1]))
-        self.c_swe = self.swe[:, -1]
-        self.timelist.append(self.timelist[-1] + timedelta(seconds=self.model_params[4]))
+        self._c_states = result
+        self._swe = np.column_stack((self._swe, self._c_states[0] * self._c_states[1]))
+        self._c_swe = self._swe[:, -1]
+        self._timelist.append(self._timelist[-1] + timedelta(seconds=self.model_params[4]))
         return 0
 
     def _run_isnobal_1d(self, params, measure_params, i_elevation, i_states, i_inputs1, i_inputs2, i_precips):
