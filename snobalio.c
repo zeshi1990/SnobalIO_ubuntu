@@ -53,7 +53,7 @@ void null_pointer_test(double *input) {
 }
 
 void syserr(void) {
-	printf("syserr");
+	printf("syserr\n");
 }
 
 void _bug(
@@ -61,7 +61,7 @@ void _bug(
 	const char     *file,		/* file where bug is (__FILE__) */
 	int             line)		/* line where bug is (__LINE__) */
 {
-	printf("bug");
+	printf("bug\n");
 }
 
 double zerobr(
@@ -190,7 +190,7 @@ double zerobr(
 			return(0.);
 		}
 	}
-	usrerr("did not converge");
+	usrerr("did not converge\n");
 
 	errno = ERROR;
 	return(0.);

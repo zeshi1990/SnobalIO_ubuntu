@@ -21,7 +21,9 @@ model_states * run_snobal(model_params * model_params1,
 
     if(!do_data_tstep()) {
         printf("Oops! Something happened when running snobal, please check log files.\n");
-        return NULL;
+        model_states * results = malloc(sizeof(model_states));
+        *results = *model_states1;
+        return results;
     };
 
     model_states r;
