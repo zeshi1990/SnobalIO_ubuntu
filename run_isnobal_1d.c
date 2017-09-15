@@ -46,6 +46,13 @@ double ** run_isnobal_1d(long length,
         printf("\n");
     }
 
+    for (int i = 0; i < 5; i++) {
+        for (long pix = 0; pix < 2; pix++) {
+            printf("%f  ", model_precip_inputs_1d1[i][pix]);
+        }
+        printf("\n");
+    }
+
 
     for (long i = 0; i < length; i++) {
         /*
