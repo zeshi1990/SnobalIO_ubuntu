@@ -37,7 +37,10 @@ double ** run_isnobal_1d(long length,
          *  Modify elevation attribute in model_measure_params1
          */
         model_measure_params1->elevation = model_measure_params_1d1->i_elevation[i];
-        printf("Elevation: %f\n", model_measure_params1->elevation);
+        printf("z_g: %d\n", model_params1->run_no_snow);
+        printf("z_u: %d\n", model_params1->stop_no_snow);
+        printf("z_T: %f\n", model_params1->max_h2o_vol);
+        printf("z_0: %f\n", model_params1->max_z_s_0);
         /*
          * Initialize following
          * model_states1,

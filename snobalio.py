@@ -105,7 +105,7 @@ class Snobal(object):
             0: run_no_snow: model continue running even when there is no snow, 1
             1: stop_no_snow: model stops when there is no snow, 0
             2: max_z_s_0: maximum active layer thickness, 0.5
-            3: max_h2o_vol: maximum liquid h2o content as volume ratio, 0.1
+            3: max_h2o_vol: maximum liquid h2o content as volume ratio, 0.2
             4: time_step: 3600 sec
             5: current_time: 0 sec
             6: time_since_out: 0 sec
