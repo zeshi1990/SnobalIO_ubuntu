@@ -32,6 +32,21 @@ double ** run_isnobal_1d(long length,
     model_measure_params1->z_T = model_measure_params_1d1->z_T;
     model_measure_params1->z_0 = model_measure_params_1d1->z_0;
 
+    for (int i = 0; i < 6; i++) {
+        for (long pix = 0; pix < 2; pix++) {
+            printf("%f  ", model_states_1d1[i][pix]);
+        }
+        printf("\n");
+    }
+
+    for (int i = 0; i < 6; i++) {
+        for (long pix = 0; pix < 2; pix++) {
+            printf("%f  ", model_climate_inputs_1d1[i][pix]);
+        }
+        printf("\n");
+    }
+
+
     for (long i = 0; i < length; i++) {
         /*
          *  Modify elevation attribute in model_measure_params1
@@ -135,7 +150,6 @@ double ** run_isnobal_1d(long length,
         free(model_climate_inputs2);
         free(model_precip_inputs1);
 
-        printf("Iteration done!\n");
     }
 
     return states_results;
