@@ -156,8 +156,9 @@ double ** run_isnobal_1d(long length,
         free(model_climate_inputs1);
         free(model_climate_inputs2);
         free(model_precip_inputs1);
-
     }
+
+    printf("Finished one step\n");
 
     return states_results;
 
