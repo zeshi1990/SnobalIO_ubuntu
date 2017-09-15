@@ -135,7 +135,7 @@ double ** run_isnobal_1d(long length,
         free(model_climate_inputs2);
         free(model_precip_inputs1);
 
-        if (i % 100 == 0) {
+        if (i % 99 == 0) {
             printf("100th Iteration\n");
             printf("%f  %f  %f  %f  %f  %f\n", z_s, rho, T_s, T_s_0, T_s_l, h2o_sat);
         }
