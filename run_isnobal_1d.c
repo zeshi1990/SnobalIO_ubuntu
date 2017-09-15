@@ -69,6 +69,7 @@ double ** run_isnobal_1d(long length,
         model_climate_inputs1->e_a = model_climate_inputs_1d1[3][i];
         model_climate_inputs1->u = model_climate_inputs_1d1[4][i];
         model_climate_inputs1->T_g = model_climate_inputs_1d1[5][i];
+        printf("elevation: %f\n", model_climate_inputs1->S_n);
 
 
         /*
