@@ -33,21 +33,21 @@ double ** run_isnobal_1d(long length,
     model_measure_params1->z_0 = model_measure_params_1d1->z_0;
 
     for (int i = 0; i < 6; i++) {
-        for (long pix = 0; pix < 2; pix++) {
+        for (long pix = 0; pix < 5; pix++) {
             printf("%f  ", model_states_1d1[i][pix]);
         }
         printf("\n");
     }
 
     for (int i = 0; i < 6; i++) {
-        for (long pix = 0; pix < 2; pix++) {
+        for (long pix = 0; pix < 5; pix++) {
             printf("%f  ", model_climate_inputs_1d1[i][pix]);
         }
         printf("\n");
     }
 
     for (int i = 0; i < 5; i++) {
-        for (long pix = 0; pix < 2; pix++) {
+        for (long pix = 0; pix < 5; pix++) {
             printf("%f  ", model_precip_inputs_1d1[i][pix]);
         }
         printf("\n");
