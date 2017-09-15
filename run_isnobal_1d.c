@@ -94,7 +94,6 @@ double ** run_isnobal_1d(long length,
         /*
          * Please uncomment below when running
          */
-        //
         if (!snobal_init(model_params1, model_measure_params1,
                          model_states1, model_climate_inputs1,
                          model_climate_inputs2, model_precip_inputs1)) {
