@@ -37,6 +37,7 @@ double ** run_isnobal_1d(long length,
          *  Modify elevation attribute in model_measure_params1
          */
         model_measure_params1->elevation = model_measure_params_1d1->i_elevation[i];
+        printf("Elevation: %f\n", model_measure_params1->elevation);
         /*
          * Initialize following
          * model_states1,
