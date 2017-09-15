@@ -90,7 +90,6 @@ double ** run_isnobal_1d(long length,
         model_precip_inputs1->percent_snow = model_precip_inputs_1d1[2][i];
         model_precip_inputs1->rho_snow = model_precip_inputs_1d1[3][i];
         model_precip_inputs1->T_pp = model_precip_inputs_1d1[4][i];
-        printf("elevation: %d\n", model_precip_inputs1->precip_now);
 
         /*
          * Please uncomment below when running
