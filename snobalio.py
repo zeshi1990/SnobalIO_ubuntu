@@ -224,7 +224,7 @@ class Snobal(object):
                                       i_inputs2=i_inputs2,
                                       i_precips=i_precips)
         self._c_states = result
-        self._c_states[np.isnan(self._c_states)] = 0.
+        self._c_states[np.isnan(self._c_states)] = deepcopy(i_states[np.isnan(self._c_states)])
         self._c_states[2:5, :][self._c_states[2:5, :] < 265.] = \
             deepcopy(i_states[2:5, :][self._c_states[2:5, :] < 265.])
         self._swe = np.column_stack((self._swe, self._c_states[0] * self._c_states[1]))
