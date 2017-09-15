@@ -223,6 +223,7 @@ class Snobal(object):
                                       i_inputs1=i_inputs1,
                                       i_inputs2=i_inputs2,
                                       i_precips=i_precips)
+        result[np.isnan(result)] = self._c_states[np.isnan(result)]
         self._c_states = result
         self._swe = np.column_stack((self._swe, self._c_states[0] * self._c_states[1]))
         self._c_swe = self._swe[:, -1]
