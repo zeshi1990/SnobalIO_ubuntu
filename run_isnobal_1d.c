@@ -156,6 +156,10 @@ double ** run_isnobal_1d(long length,
         free(model_climate_inputs1);
         free(model_climate_inputs2);
         free(model_precip_inputs1);
+
+        if (i % 100 == 0) {
+            printf("100th Iteration");
+        }
     }
 
     printf("Finished one step\n");
