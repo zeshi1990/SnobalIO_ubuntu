@@ -225,6 +225,7 @@ class Snobal(object):
                                       i_precips=i_precips)
         self._c_states = result
         self._c_states[np.isnan(self._c_states)] = deepcopy(i_states[np.isnan(self._c_states)])
+        self._c_states[2:4, :][self._c_states[2:4, :] < 200.] = 273.16
         self._swe = np.column_stack((self._swe, self._c_states[0] * self._c_states[1]))
         self._c_swe = self._swe[:, -1]
         self._timelist.append(self._timelist[-1] + timedelta(seconds=self.model_params[4]))
