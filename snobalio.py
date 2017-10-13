@@ -141,7 +141,9 @@ class Snobal(object):
         self._snobal = None
         self._init_snobal()
         self._swe = self.states_0[0] * self.states_0[1]    # Please note that the SWE are in mm
+        self._sd = self.states_0[0]
         self._c_swe = self.states_0[0] * self.states_0[1]
+        self._c_sd = self.states_0[0]
         self._timelist = [initial_timestamp]
 
     def _init_snobal(self):
@@ -228,12 +230,20 @@ class Snobal(object):
         # result[2:5, :][result[2:5, :] < 265.] = self._c_states[2:5, :][result[2:5, :] < 265.]
         self._c_states = deepcopy(result)
         self._swe = np.column_stack((self._swe, self._c_states[0] * self._c_states[1]))
+        self._sd = np.column_stack((self._sd, self._c_states[0]))
         self._c_swe = self._swe[:, -1]
+        self._c_sd = self._sd[:, -1]
         self._timelist.append(self._timelist[-1] + timedelta(seconds=self.model_params[4]))
         return 0
 
     def get_swe(self):
         return self._c_swe
+
+    def get_sd(self):
+        return self._c_sd
+
+    def get_all_sds(self):
+        return self._timelist, self._sd
 
     def get_all_swes(self):
         return self._timelist, self._swe
