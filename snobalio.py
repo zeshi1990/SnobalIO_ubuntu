@@ -230,7 +230,7 @@ class Snobal(object):
         # result[2:5, :][result[2:5, :] < 265.] = self._c_states[2:5, :][result[2:5, :] < 265.]
         self._c_states = deepcopy(result)
         self._swe = np.column_stack((self._swe, self._c_states[0] * self._c_states[1]))
-        self._sd = np.column_stack((self._sd, self._c_states[0]))
+        self._sd = np.column_stack((self._sd, deepcopy(self._c_states[0])))
         self._c_swe = self._swe[:, -1]
         self._c_sd = self._sd[:, -1]
         self._timelist.append(self._timelist[-1] + timedelta(seconds=self.model_params[4]))
