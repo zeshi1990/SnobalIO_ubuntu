@@ -75,8 +75,8 @@ class ModelMeasureParams1d(Structure):
         ("z_g", c_double),
         ("z_u", c_double),
         ("z_T", c_double),
-        ("z_0", c_double),
-        ("i_elevation", nd_double_1d)
+        ("i_elevation", nd_double_1d),
+        ("z_0", nd_double_1d)
     ]
 
 
@@ -95,7 +95,7 @@ class ModelPrecipInputs(Structure):
 
 class Snobal(object):
 
-    def __init__(self, model_params, model_measure_params, elevations, initial_states, initial_timestamp):
+    def __init__(self, model_params, model_measure_params, elevations, z_0_s, initial_states, initial_timestamp):
         """
         intialize Snobal model
 
@@ -115,9 +115,10 @@ class Snobal(object):
             1: z_g: depth of soil temp meas, 0.25
             2: z_u: height of wind measurement, 10
             3: z_T: height of air temp measurement, 10
-            4: z_0: roughness length, 0.1
 
         elevations : np.ndarray, (n, ), an array of elevations of modeling pixels
+
+        z_0_s : np.ndarray, (n, ), an array of roughness length of modeling pixels
 
         initial_states : np.ndarray, (6, n), a 2-D array, each column is a state vector, which are
             0: z_s: snowdepth, m
@@ -135,9 +136,11 @@ class Snobal(object):
         self.model_params = model_params
         self.model_measure_params = model_measure_params
         self.elevations = elevations
+        self.z_0_s = z_0_s
         self.states_0 = initial_states
         self._c_states = self.states_0.copy()
         assert len(self.elevations) == self.states_0.shape[1]
+        assert len(self.z_0_s) == self.states_0.shape[1]
         self._snobal = None
         self._init_snobal()
         self._swe = self.states_0[0] * self.states_0[1]    # Please note that the SWE are in mm
@@ -205,6 +208,9 @@ class Snobal(object):
         # Assertion control on DEM
         i_elevations = self.elevations
 
+        # z_0_s
+        i_z_0_s = self.z_0_s
+
         # Assertion control on measure
         measure_params = self.model_measure_params
 
@@ -221,6 +227,7 @@ class Snobal(object):
         result = self._run_isnobal_1d(params=params,
                                       measure_params=measure_params,
                                       i_elevation=i_elevations,
+                                      i_z_0_s=i_z_0_s,
                                       i_states=i_states,
                                       i_inputs1=i_inputs1,
                                       i_inputs2=i_inputs2,
@@ -248,9 +255,9 @@ class Snobal(object):
     def get_all_swes(self):
         return self._timelist, self._swe
 
-    def _run_isnobal_1d(self, params, measure_params, i_elevation, i_states, i_inputs1, i_inputs2, i_precips):
+    def _run_isnobal_1d(self, params, measure_params, i_elevation, i_z_0_s, i_states, i_inputs1, i_inputs2, i_precips):
         model_params_obj = self._construct_model_params(params)
-        model_measure_params_1d = self._construct_model_measure_params_1d(measure_params, i_elevation)
+        model_measure_params_1d = self._construct_model_measure_params_1d(measure_params, i_elevation, i_z_0_s)
         p_results = self._snobal.run_isnobal_1d(c_long(i_states.shape[1]),
                                                 byref(model_params_obj),
                                                 byref(model_measure_params_1d),
@@ -364,7 +371,7 @@ class Snobal(object):
             return None
 
     @staticmethod
-    def _construct_model_measure_params_1d(measure_params, i_elevation):
+    def _construct_model_measure_params_1d(measure_params, i_elevation, i_z_0_s):
         """
 
         :param measure_params: relative_hts, z_g, z_u, z_T, z_0
@@ -375,8 +382,8 @@ class Snobal(object):
                                     float(measure_params[1]),
                                     float(measure_params[2]),
                                     float(measure_params[3]),
-                                    float(measure_params[4]),
-                                    i_elevation.ctypes.data)
+                                    i_elevation.ctypes.data,
+                                    i_z_0_s.ctypes.data)
 
     def run_snobal(self, **kwargs):
         """

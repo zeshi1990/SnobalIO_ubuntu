@@ -30,13 +30,13 @@ double ** run_isnobal_1d(long length,
     model_measure_params1->z_g = model_measure_params_1d1->z_g;
     model_measure_params1->z_u = model_measure_params_1d1->z_u;
     model_measure_params1->z_T = model_measure_params_1d1->z_T;
-    model_measure_params1->z_0 = model_measure_params_1d1->z_0;
 
     for (long i = 0; i < length; i++) {
         /*
          *  Modify elevation attribute in model_measure_params1
          */
         model_measure_params1->elevation = model_measure_params_1d1->i_elevation[i];
+        model_measure_params1->z_0 = model_measure_params_1d1->z_0[i];
 
         /*
          * Initialize following
