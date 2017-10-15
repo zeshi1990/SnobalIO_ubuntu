@@ -28,8 +28,8 @@ typedef struct {
     double z_g;
     double z_u;
     double z_T;
-    double *z_0;
     double *i_elevation;
+    double *z_0;
 
 } model_measure_params_1d;
 
