@@ -116,12 +116,12 @@ double ** run_isnobal_1d(long length,
 
         if(!do_data_tstep()) {
             printf("Oops! Something happened when running snobal, please check log files.\n");
-            states_results[0][i] = model_states1->z_s;
-            states_results[1][i] = model_states1->rho;
-            states_results[2][i] = model_states1->T_s;
-            states_results[3][i] = model_states1->T_s_0;
-            states_results[4][i] = model_states1->T_s_l;
-            states_results[5][i] = model_states1->h2o_sat;
+            states_results[0][i] = z_s;
+            states_results[1][i] = rho;
+            states_results[2][i] = T_s;
+            states_results[3][i] = T_s_0;
+            states_results[4][i] = T_s_l;
+            states_results[5][i] = h2o_sat;
             continue;
         };
 
