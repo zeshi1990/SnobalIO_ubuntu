@@ -34,15 +34,19 @@ _h_le(void)
 	/* calculate saturation vapor pressure */
 	//	printf("-Ts0 %f Ta %f-", T_s_0, T_a);
 	e_s = sati(T_s_0);
-	if (e_s == FALSE)
+	if (e_s == FALSE) {
+		printf("Saturation vapor pressure error");
 		return FALSE;
+	}
 
 
 	/*** error check for bad vapor pressures ***/
 
 	sat_vp = sati(T_a);
-	if (sat_vp == FALSE)
+	if (sat_vp == FALSE) {
+		printf("Bad vapor pressures");
 		return FALSE;
+	}
 	if (e_a > sat_vp) {
 		e_a = sat_vp;
 	}
@@ -72,6 +76,7 @@ _h_le(void)
 			rel_z_u, z_0, &H, &L_v_E, &E) != 0) {
 		printf("error code is %d\n", hle1(P_a, T_a, T_s_0, rel_z_T, e_a, e_s, rel_z_T, u,
 										  rel_z_u, z_0, &H, &L_v_E, &E));
+		printf("hle1 did not converge\n");
 		usrerr("hle1 did not converge\nP_a %f, T_a %f, T_s_0 %f\nrelative z_T %f, e_a %f, e_s %f\nu %f, relative z_u %f, z_0 %f\n", P_a, T_a, T_s_0, rel_z_T, e_a, e_s, u, rel_z_u, z_0);
 		return FALSE;
 	}
