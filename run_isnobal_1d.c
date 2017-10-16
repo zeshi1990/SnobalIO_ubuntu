@@ -37,10 +37,10 @@ double ** run_isnobal_1d(long length,
          */
         model_measure_params1->elevation = model_measure_params_1d1->i_elevation[i];
         model_measure_params1->z_0 = model_measure_params_1d1->z_0[i];
-        if (i == 0) {
-            printf("Elevation is: %f\n", model_measure_params1->elevation);
-            printf("roughness index is: %f\n", model_measure_params1->z_0);
-        }
+//        if (i == 0) {
+//            printf("Elevation is: %f\n", model_measure_params1->elevation);
+//            printf("roughness index is: %f\n", model_measure_params1->z_0);
+//        }
 
         /*
          * Initialize following
