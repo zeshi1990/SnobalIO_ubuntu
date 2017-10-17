@@ -145,8 +145,10 @@ class Snobal(object):
         self._init_snobal()
         self._swe = self.states_0[0] * self.states_0[1]    # Please note that the SWE are in mm
         self._sd = self.states_0[0]
+        self._h2o_sat = self.states_0[-1]
         self._c_swe = self.states_0[0] * self.states_0[1]
         self._c_sd = self.states_0[0]
+        self._c_h2o_sat = self.states_0[-1]
         self._timelist = [initial_timestamp]
 
     def _init_snobal(self):
@@ -238,8 +240,10 @@ class Snobal(object):
         self._c_states = deepcopy(result)
         self._swe = np.column_stack((self._swe, self._c_states[0] * self._c_states[1]))
         self._sd = np.column_stack((self._sd, deepcopy(self._c_states[0])))
+        self._h2o_sat = np.column_stack((self._h2o_sat, deepcopy(self._c_states[-1])))
         self._c_swe = self._swe[:, -1]
         self._c_sd = self._sd[:, -1]
+        self._c_h2o_sat = self._h2o_sat[:, -1]
         self._timelist.append(self._timelist[-1] + timedelta(seconds=self.model_params[4]))
         return 0
 
@@ -249,11 +253,17 @@ class Snobal(object):
     def get_sd(self):
         return self._c_sd
 
+    def get_h2o_sat(self):
+        return self._c_h2o_sat
+
     def get_all_sds(self):
         return self._timelist, self._sd
 
     def get_all_swes(self):
         return self._timelist, self._swe
+
+    def get_all_h2o_sat(self):
+        return self._timelist, self._h2o_sat
 
     def _run_isnobal_1d(self, params, measure_params, i_elevation, i_z_0_s, i_states, i_inputs1, i_inputs2, i_precips):
         model_params_obj = self._construct_model_params(params)
